@@ -1,0 +1,7 @@
+Heedong Yang
+
+Assignment1 Reflection
+
+I think Contact struct which has three derived (structure type) type to let us know how multiple strutures can be combined or used together. Using not just one but two dot notation, I was able to learn not just grouping related primitive types but also user-defined structs can be grouped together. Moreover, as I grouped three strutures together, it was easier to putting it together at the end of the code(printing the results and so on...)
+The reason why it is a bad design to pass Contact, I think, is when I passed Contact object or variable contact's address to the functions, it does not point to the actual strutures such as name, address, and numbers but it just points to the address of contact variable's address, compiler has to find original structure to access data.
+I feel little bit overwhelmed and confused when it comes to combine pointers, structures, and functions all together. And I am not so sure whether I am at least following a track or my design/code is not really good although it produces the output.

@@ -1,0 +1,14 @@
+In line number 8 of your output:
+The output should be:
+Please select from the above options: 2
+                                      ^
+But your output is: 
+Please select from the above options: 1
+                                      ^
+
+Unmatched character details:
+The character in column 39 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [1] ASCII code(49)
+

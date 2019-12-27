@@ -1,0 +1,3 @@
+﻿  a1ms4.c
+C:\Users\Heedong\Desktop\AS1MS4\AS1MS4\a1ms4.c(152,12): warning C4013: 'getNumbers' undefined; assuming extern returning int
+  AS1MS4.vcxproj -> C:\Users\Heedong\Desktop\AS1MS4\Debug\AS1MS4.exe

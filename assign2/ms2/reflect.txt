@@ -1,0 +1,9 @@
+=================================
+= IPC144 NSA										=
+= Assignment 2 Milestone 2			=
+= Reflection										=
+= Heedong Yang									=
+=================================
+
+Function is the set of code or group of statements that perform one specific task. Functions are important in any programming language because they support modular design and reusability. Well designed functions can be called and used in other projects or source files without coding exactly same statements,which is called Functional Programming. In stead typing redundant instructions repeatedly, calling necessary functions will reduce the length of code, enhance readability and portability
+Helper (contactHelper.c) is in different module since the functions in helpers are used many times in contacts.c and a2ms2.c. clearKeyboard(), pause(), and getInt() are frequently used in them while the caller functions can focus on dealing stored data. Contacts module for instance, focuses on storing data.While doing so, calling functions in contactHelper.c and use them reduces legnth of the functions in Contacts.c and enhance readability.

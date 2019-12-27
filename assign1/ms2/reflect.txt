@@ -1,0 +1,18 @@
+##==============================================
+## Name:           Heedong Yang
+## Student Number: 146191168
+## Email:          hyang117@myseneca.ca
+## Section:        NSA
+## Date:           11/5/2019
+##==============================================
+## Assignment:     1
+## Milestone:      2_Reflection.txt
+##==============================================
+
+Throughout the Assignment1 milestone 1 and 2, we learnt how to include external header file(s) so that three structures in the header can be used in the main file, "a1ms2.c". Input buffer, as we learnt in the class, can retains unprocessed values even though scanf has run. For example, when 10 digits of string array has entered in the address of string array which is declared to have 7 characters would leave the left over values in the input buffer, stored in to the address of next scanf function. This problem can be solved by flushing the input buffer. Input buffer can be flushed either program has terminated or new-line character has entered("\n") and I have used function clear_buff() so that clearing code block wouldn't be typed repeatedly.
+Place holder %[^\n] let us store white space included array of string such as "Seneca College". 
+In stead of storing value by value, we can use array of structs to store every elements altogether. For examples, the name has three arrays of structures and we can add multiple values in one time as long as it is below than array index 
+C string and character array have different way of initialization. For example, 
+C string a can be initialized with
+char strings[4] = "ABC";
+char chararray[4] = {'A','B','C','\0'};  
